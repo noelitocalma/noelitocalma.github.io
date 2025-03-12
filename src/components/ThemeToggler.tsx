@@ -1,7 +1,6 @@
 import { themeAtom } from '@/atoms/theme.atoms';
 import { Theme } from '@/constants/theme';
 import { Button } from '@heroui/react';
-import { div, span } from 'framer-motion/client';
 import { useSetAtom } from 'jotai';
 import { Moon, Sun } from 'lucide-react';
 import React, { useState, useEffect, useCallback } from 'react';
