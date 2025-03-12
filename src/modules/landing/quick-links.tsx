@@ -1,18 +1,16 @@
-import { personalInfo } from "@/constants/info";
 import { routes } from "@/constants/routes";
-import { Card, CardHeader, CardFooter, Image, Button, Tooltip } from "@heroui/react";
-import { ArrowRight, Copy } from "lucide-react";
+import { Card, CardFooter, CardHeader, Image } from "@heroui/react";
+import clsx from "clsx";
+import { ArrowRight } from "lucide-react";
+import * as motion from "motion/react-client";
 import { useRouter } from "next/router";
 import { ReactNode } from "react";
-import { useCopyToClipboard } from "react-use";
 
-import whoamiThumbnail from "./assets/whoami.jpg";
-import techStackThumbnail from "./assets/tech-stack.jpg";
-import workExpThumbnail from "./assets/work-experience.jpg";
-import projectThumbnail from "./assets/projects.jpg";
 import hireMeThumbnail from "./assets/hire-me.jpg";
-
-import clsx from "clsx";
+import projectThumbnail from "./assets/projects.jpg";
+import techStackThumbnail from "./assets/tech-stack.jpg";
+import whoamiThumbnail from "./assets/whoami.jpg";
+import workExpThumbnail from "./assets/work-experience.jpg";
 
 export default function QuickLinks() {
   const router = useRouter();
@@ -31,35 +29,37 @@ export default function QuickLinks() {
     credit?: ReactNode,
     className?: string;
   }) => (
-    <Card
-      className={clsx(className, " h-[300px] group cursor-pointer transition")}
-    >
+    <Card className={clsx(className, " h-[300px] group cursor-pointer transition")}>
       <CardHeader
         onClick={() => router.push(routes[route])}
         className="absolute z-20 top-1 flex-col !items-start ">
         <p className="text-tiny text-white/60 uppercase font-bold">{title}</p>
         <h4 className="text-white font-medium text-large">{subtitle}</h4>
       </CardHeader>
-      <div onClick={() => router.push(routes[route])} className="bg-black/40 absolute top-0 bottom-0 z-10 w-full h-full" />
-      <Image
+
+      <div
         onClick={() => router.push(routes[route])}
+        className="bg-black/40 absolute top-0 bottom-0 z-10 w-full h-full"
+      />
+
+      <Image
         removeWrapper
         alt={subtitle}
-        className="z-0 w-full h-full object-cover group-hover:blur-md"
+        className="z-0 w-full h-full object-cover transition-all ease-in group-hover:blur-md"
         src={image}
       />
+
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-        {credit}
-        <Button
-          onPress={() => router.push(routes[route])}
-          className="text-tiny ml-auto p-1 w-2 h-6"
-          isIconOnly
-          radius="full"
-          variant="shadow"
-          size="sm"
+        <>{credit}</>
+
+        <motion.button
+          onClick={() => router.push(routes[route])}
+          className="text-tiny ml-auto bg-gray-600 text-white rounded-md flex items-center p-1 w-6 h-6"
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8 }}
         >
           <ArrowRight className="w-4" />
-        </Button>
+        </motion.button>
       </CardFooter>
     </Card>
   )

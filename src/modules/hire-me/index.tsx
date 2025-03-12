@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Input, Button, Card, CardBody, Textarea, Divider, Snippet } from "@heroui/react";
-import { div } from "framer-motion/client";
+import { ExternalLink, Mail } from "lucide-react";
 
 const socials = {
   email: 'noelitocalma@gmail.com',
@@ -18,10 +18,6 @@ export default function HireMe() {
     setSubmitted(data);
   };
 
-  const handleClickEmail = () => {
-
-  }
-
   return (
     <div className="text-center">
       <h1 className="text-4xl sm:text-6xl font-bold uppercase">Get in touch!</h1>
@@ -36,12 +32,20 @@ export default function HireMe() {
             <Snippet
               codeString={socials.email}
               color="success"
+              tooltipProps={{
+                content: "Send an email"
+              }}
+              copyIcon={<Mail className="w-4 h-4" />}
               onCopy={() => window.open(`mailto:${socials.email}`, '_blank')}
             >
               <span>ping {socials.email}</span>
             </Snippet>
 
             <Snippet
+              tooltipProps={{
+                content: "Open LinkedIn Profile"
+              }}
+              copyIcon={<ExternalLink className="w-4 h-4" />}
               codeString={socials.linkedin}
               color="success"
               onCopy={() => window.open(socials.linkedin, '_blank')}
@@ -51,12 +55,12 @@ export default function HireMe() {
           </div>
 
           <div className="relative my-5 flex items-center">
-            <small className="bg-white dark:bg-gray-700 absolute left-0 right-0 m-auto w-10 text-center text-gray-400">OR</small>
+            <small className="bg-white dark:bg-gray-700 absolute left-0 right-0 m-auto w-10 text-center text-gray-400 rounded-md">OR</small>
             <Divider />
           </div>
 
           <Form className="w-full" onSubmit={onSubmit}>
-            <div className="flex flex-col gap-5 w-full">
+            <div className="flex flex-col gap-8 w-full">
               <Input
                 isRequired
                 errorMessage="Please enter a valid email"

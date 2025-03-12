@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const theme = useAtomValue(themeAtom);
 
   return (
-    <div className={`${PublicSans.variable} h-full ${theme}`}>
+    <div className={`${PublicSans.variable} min-h-screen ${theme}`}>
       <Providers>
         <Component {...pageProps} />
         <ThemeToggler />

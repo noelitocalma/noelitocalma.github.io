@@ -34,7 +34,9 @@ export default function ThemeToggler() {
   }, [isDarkMode]);
 
   return (
-    <Button variant="solid" color="warning" className='theme-toggler rounded-full text-white' isIconOnly onPress={toggleTheme}>
+    <Button variant="solid" color="warning"
+      className='theme-toggler rounded-full text-white'
+      isIconOnly onPress={toggleTheme}>
       {isDarkMode ? <Sun /> : <Moon />}
     </Button>
   );

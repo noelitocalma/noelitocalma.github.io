@@ -1,8 +1,9 @@
-import LandingPage from "@/modules/landing";
-import { Timeline } from "@/modules/landing/timeline";
+import ActionButton from "@/components/ActionButton";
 
 export default function Work() {
   return (
-    <Timeline />
+    <>
+      <ActionButton />
+    </>
   );
 }
