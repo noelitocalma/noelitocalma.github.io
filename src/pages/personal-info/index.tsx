@@ -1,9 +1,7 @@
-import ActionButton from "@/components/ActionButton";
-
-export default function Work() {
+export default function PersonalInfo() {
   return (
-    <>
-      <ActionButton />
-    </>
+    <div className="min-h-screen sm:flex items-center justify-center p-5">
+
+    </div>
   );
 }

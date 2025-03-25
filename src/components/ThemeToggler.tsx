@@ -20,6 +20,8 @@ export default function ThemeToggler() {
     setIsDarkMode(_isDarkMode);
     setThemeAtom(_isDarkMode ? Theme.Dark : Theme.Light);
     document.body.classList.toggle('light-mode', !_isDarkMode);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const toggleTheme = useCallback(() => {
@@ -31,7 +33,7 @@ export default function ThemeToggler() {
     setThemeAtom(newTheme);
 
     document.body.classList.toggle('light-mode', !_isDarkMode);
-  }, [isDarkMode]);
+  }, [isDarkMode, setThemeAtom]);
 
   return (
     <Button variant="solid" color="warning"

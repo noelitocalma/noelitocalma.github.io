@@ -3,6 +3,8 @@
 
 export default function WorkExperience() {
   return (
-    <></>
+    <div className="min-h-screen">
+
+    </div>
   )
 }

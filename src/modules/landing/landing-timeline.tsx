@@ -1,16 +1,7 @@
 "use client";
-import {
-  useMotionValueEvent,
-  useScroll,
-  useTransform,
-  motion,
-} from "motion/react";
-import React, { useEffect, useRef, useState } from "react";
 
-interface TimelineEntry {
-  title: string;
-  content: React.ReactNode;
-}
+import { motion, useScroll, useTransform } from "motion/react";
+import React, { useEffect, useRef, useState } from "react";
 
 const data = [{
   "position": "Asst. Manager | Frontend Development",
@@ -98,7 +89,7 @@ const data = [{
 }
 ]
 
-export const Timeline = () => {
+export const LandingTimeline = () => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);

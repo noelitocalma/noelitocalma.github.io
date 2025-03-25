@@ -1,11 +1,9 @@
-import ThemeToggler from "@/components/ThemeToggler";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Noelito Calma | Senior Frontend Developer</title>
         <meta name="description" content="Noelito Calma is a Senior Frontend Developer specializing in creating responsive, high-performance web applications using React, Angular, Tailwind CSS, and Laravel." />
         <meta name="keywords" content="Noelito Calma, Senior Frontend Developer, web development, JavaScript, React, Angular, Tailwind CSS, Laravel, frontend, HTML, CSS, web applications" />
         <meta name="author" content="Noelito Calma" />

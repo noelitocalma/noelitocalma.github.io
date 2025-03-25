@@ -8,14 +8,10 @@ const socials = {
 }
 
 export default function HireMe() {
-  const [submitted, setSubmitted] = React.useState(null);
+  const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-
-    const data = Object.fromEntries(new FormData(e.currentTarget));
-
-    setSubmitted(data);
+    // const data: any = Object.fromEntries(new FormData(event.currentTarget));
   };
 
   return (
@@ -94,7 +90,7 @@ export default function HireMe() {
             </div>
 
             <Button type="submit" variant="solid" color="primary" className="w-full mt-5">
-              Let's Connect
+              Let&apos;s Connect
             </Button>
           </Form>
         </CardBody>

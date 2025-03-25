@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #2f2f2f;
+    --background: #18181b;
     --foreground: #ededed;
   }
 }
@@ -42,8 +42,16 @@ a {
 
 .theme-toggler {
   position: fixed;
-  top: 1rem;
-  right:  1rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 1001;
+}
+
+.sidebar-toggler {
+  position: fixed;
+  top: 3.5rem;
+  right: 0.5rem;
+  z-index: 1001;
 }
 
 body.light-mode {
