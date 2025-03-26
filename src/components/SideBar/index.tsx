@@ -43,6 +43,9 @@ const pages: Page[] = [
 ]
 
 const SidebarWrapper = styled.div`
+  min-width: 300px;
+  z-index: 1000;
+
   &.sidebar__mobile {
     top: 0;
     bottom: 0;
@@ -50,7 +53,6 @@ const SidebarWrapper = styled.div`
     background-color: var(--background);
     transition: margin-left ease 0.1s;
     margin-left: -100%;
-    z-index: 1000;
 
     &.sidebar__expanded {
       margin-left: 0;
@@ -88,14 +90,15 @@ export default function SideBar() {
 
       <SidebarWrapper
         className={clsx(
+          "overflow-auto shadow-lg fixed left-0 top-0 bottom-0 bg-slate-50 dark:bg-slate-900",
           isMobile ? 'sidebar__mobile' : '',
           sidebar.expanded ? 'sidebar__expanded' : ''
         )}
       >
-        <div className="w-[300px] h-full">
+        <div className="min-w-[300px] h-full">
           <Card
             radius="none"
-            className="h-full w-[300px]"
+            className="h-full min-w-[300px]"
             style={{
               backgroundSize: "cover !important",
               backgroundPosition: "bottom",
@@ -114,7 +117,7 @@ export default function SideBar() {
 
             <Divider />
 
-            <div className="p-2 flex gap-2 justify-between">
+            <div className="p-2 flex gap-1">
               <SocialIcons />
             </div>
 
@@ -124,13 +127,16 @@ export default function SideBar() {
               {pages.map(page => (
                 <>
                   <a
-                    className={`hover:bg-slate-200 hover:dark:bg-slate-800 p-2 rounded-md ${activePath === page.path ? 'bg-slate-200 dark:bg-slate-800' : ''}`}
+                    className={clsx(
+                      "hover:bg-slate-200 hover:dark:bg-slate-800 p-2 rounded-md",
+                      activePath === page.path ? 'bg-slate-200 dark:bg-slate-800' : ''
+                    )}
                     key={page.path} href={page.path}>
                     <div className="flex gap-2 items-center group py-2">
                       <div className="p-1 rounded-md flex items-center">{page.icon()}</div>
                       <div className="flex flex-col">
                         <span className="uppercase font-semibold text-sm">{page.label}</span>
-                        <small className="text-default-400 font-normal text-xs">{page.slogan}</small>
+                        <small className="text-default-400 dark:text-slate-400 font-normal text-xs">{page.slogan}</small>
                       </div>
                     </div>
                   </a>
@@ -138,8 +144,8 @@ export default function SideBar() {
               ))}
             </div>
 
-            <div className="uppercase text-xs flex items-center justify-center p-3 border-t font-bold">
-              Made with <Heart className="w-4 mx-1" /> using <Image alt="nextjs" className="ml-1" src={NextJSIcon.src} />
+            <div className="uppercase text-xs flex items-center justify-center p-3 border-t dark:border-slate-700 font-bold">
+              Made with <Heart className="w-4 mx-1" /> using <Image alt="nextjs" width={16} height={16} className="ml-1" src={NextJSIcon.src} />
             </div>
           </Card>
         </div>

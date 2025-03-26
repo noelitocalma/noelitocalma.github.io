@@ -1,0 +1,244 @@
+{
+  "title": "A Story of Growth",
+  "subtitle": "My Journey to This Point",
+  "details": [
+    {
+      "company": "I Apparel International Group PTE LTD (Cambodia)",
+      "location": "Cambodia",
+      "position": "Front End Web Development and Design Manager",
+      "duration": "February 2024 to Present",
+      "responsibilities": [
+        "Responsible in developing new applications and/or modules and ensuring the applications meet high-quality standards and fulfill business requirements.",
+        "Conducts thorough code reviews to maintain code quality, consistency, and adherence to best practices. Provides constructive feedback to team members, helping them improve their coding skills and ensuring the overall integrity of the codebase.",
+        "Mentors and assists junior developers in overcoming challenges, understanding complex tasks, and resolving blockers. Provides guidance and support to help them meet their tasks' requirements and deadlines, fostering their professional growth within the team."
+      ],
+      "techStack": [
+        "React/Next.JS",
+        "Zustand",
+        "Tailwind CSS",
+        "SASS",
+        "Material UI",
+        "PHP",
+        "Laravel",
+        "Typescript",
+        "NodeJS",
+        "PostgresSQL"
+      ]
+    },
+    {
+      "company": "ProductPinion",
+      "location": "Remote",
+      "website": "https://productpinion.com/",
+      "position": "Freelance Frontend Developer",
+      "duration": "August 2023 to Present",
+      "responsibilities": [
+        "Responsible for developing new features and modules and ensuring the applications meet high-quality standards and fulfill business requirements.",
+        "Responsible for application maintenance across the frontend codebase.",
+        "Offers daily support to end-users by addressing their inquiries and resolving any issues they encounter while using the web applications. Provides prompt and effective solutions, ensuring a positive user experience and customer satisfaction."
+      ],
+      "techStack": [
+        "React/Next.JS",
+        "Context API",
+        "Tailwind CSS",
+        "SASS",
+        "Material UI",
+        "Konva",
+        "Mantine UI",
+        "Bootstrap",
+        "Auth0",
+        "Typescript",
+        "Jotai"
+      ]
+    },
+    {
+      "company": "Luen Thai Holdings Limited",
+      "location": "Remote",
+      "position": "Freelance Frontend Developer",
+      "duration": "October 2023 to January 2024",
+      "responsibilities": [
+        "Responsible for developing sophisticated and user-friendly web applications utilizing Angular and ReactJS frameworks. Involved in the entire software development lifecycle, from conceptualization to deployment, ensuring the applications meet high-quality standards and fulfill business requirements.",
+        "Takes on the role of Team Lead for the frontend development team. Leads by example, setting coding standards, best practices, and ensuring effective collaboration within the team. Provides direction and guidance to team members, fostering a cohesive and productive working environment",
+        "Conducts thorough code reviews to maintain code quality, consistency, and adherence to best practices. Provides constructive feedback to team members, helping them improve their coding skills and ensuring the overall integrity of the codebase.",
+        "Mentors and assists junior developers in overcoming challenges, understanding complex tasks, and resolving blockers. Provides guidance and support to help them meet their tasks' requirements and deadlines, fostering their professional growth within the team.",
+        "Offers daily support to end-users by addressing their inquiries and resolving any issues they encounter while using the web applications. Provides prompt and effective solutions, ensuring a positive user experience and customer satisfaction."
+      ],
+      "techStack": [
+        "Angular",
+        "React/Next.JS",
+        "Redux",
+        "Tailwind CSS",
+        "Ant Design",
+        "SASS",
+        "Typescript",
+        "CI/CD",
+        "Web Sockets",
+        "NGXS",
+        "RxJS"
+      ]
+    },
+    {
+      "company": "Suntex Pte. Ltd",
+      "location": "Cambodia",
+      "position": "Assistant Manager | Frontend Development",
+      "duration": "February 2022 to October 2023",
+      "responsibilities": [
+        "Responsible for developing sophisticated and user-friendly web applications utilizing Angular and ReactJS frameworks. Involved in the entire software development lifecycle, from conceptualization to deployment, ensuring the applications meet high-quality standards and fulfill business requirements.",
+        "Takes on the role of Team Lead for the frontend development team. Leads by example, setting coding standards, best practices, and ensuring effective collaboration within the team. Provides direction and guidance to team members, fostering a cohesive and productive working environment",
+        "Conducts thorough code reviews to maintain code quality, consistency, and adherence to best practices. Provides constructive feedback to team members, helping them improve their coding skills and ensuring the overall integrity of the codebase.",
+        "Mentors and assists junior developers in overcoming challenges, understanding complex tasks, and resolving blockers. Provides guidance and support to help them meet their tasks' requirements and deadlines, fostering their professional growth within the team.",
+        "Offers daily support to end-users by addressing their inquiries and resolving any issues they encounter while using the web applications. Provides prompt and effective solutions, ensuring a positive user experience and customer satisfaction."
+      ],
+      "techStack": [
+        "Angular",
+        "React/Next.JS",
+        "Redux",
+        "Tailwind CSS",
+        "Ant Design",
+        "SASS",
+        "Typescript",
+        "CI/CD",
+        "Web Sockets",
+        "NGXS",
+        "RxJS"
+      ]
+    },
+    {
+      "company": "Allianz Technology",
+      "location": "Thailand",
+      "position": "Senior Frontend Developer",
+      "duration": "July 2021 to February 2022",
+      "responsibilities": [
+        "Actively contribute to the creation of high-quality, bug-free software while maintaining industry-standard coding practices and fostering a culture of collaboration and excellence within the frontend development team.",
+        "Acts as a critical troubleshooter, meticulously identifying, analyzing, and resolving bugs and issues within existing web applications. Utilizes debugging tools and methodologies to pinpoint the root causes of problems and implements effective solutions promptly, ensuring the smooth operation of the applications and minimizing user disruptions",
+        "Conducts rigorous code reviews, evaluating the quality, efficiency, and adherence to industry standards of frontend code.",
+        "Engages in peer programming sessions, ensuring that the team's collective knowledge and expertise are leveraged for optimal outcomes."
+      ],
+      "techStack": [
+        "Angular",
+        "Typescript",
+        "SASS",
+        "Jest",
+        "NDBX UI"
+      ]
+    },
+    {
+      "company": "Suntex Pte. Ltd",
+      "location": "Cambodia",
+      "position": "Web Developer Section Head",
+      "duration": "August 2019 to June 2021",
+      "responsibilities": [
+        "Responsible for developing sophisticated and user-friendly web applications utilizing Angular and ReactJS frameworks. Involved in the entire software development lifecycle, from conceptualization to deployment, ensuring the applications meet high-quality standards and fulfill business requirements.",
+        "Takes on the role of Team Lead for the frontend development team. Leads by example, setting coding standards, best practices, and ensuring effective collaboration within the team. Provides direction and guidance to team members, fostering a cohesive and productive working environment",
+        "Conducts thorough code reviews to maintain code quality, consistency, and adherence to best practices. Provides constructive feedback to team members, helping them improve their coding skills and ensuring the overall integrity of the codebase.",
+        "Mentors and assists junior developers in overcoming challenges, understanding complex tasks, and resolving blockers. Provides guidance and support to help them meet their tasks' requirements and deadlines, fostering their professional growth within the team.",
+        "Offers daily support to end-users by addressing their inquiries and resolving any issues they encounter while using the web applications. Provides prompt and effective solutions, ensuring a positive user experience and customer satisfaction."
+      ],
+      "techStack": [
+        "Angular",
+        "React/Next.JS",
+        "Redux",
+        "Tailwind CSS",
+        "Ant Design",
+        "SASS",
+        "Typescript",
+        "CI/CD",
+        "Web Sockets",
+        "NGXS",
+        "RxJS",
+        "Wordpress"
+      ]
+    },
+    {
+      "company": "L&T International Group Philippines",
+      "location": "Philippines",
+      "position": "Web Developer Section Head",
+      "duration": "November 2017 to July 2019",
+      "responsibilities": [
+        "Responsible for developing sophisticated and user-friendly web applications utilizing Angular and ReactJS frameworks. Involved in the entire software development lifecycle, from conceptualization to deployment, ensuring the applications meet high-quality standards and fulfill business requirements.",
+        "Takes on the role of Team Lead for the frontend development team. Leads by example, setting coding standards, best practices, and ensuring effective collaboration within the team. Provides direction and guidance to team members, fostering a cohesive and productive working environment",
+        "Conducts thorough code reviews to maintain code quality, consistency, and adherence to best practices. Provides constructive feedback to team members, helping them improve their coding skills and ensuring the overall integrity of the codebase.",
+        "Mentors and assists junior developers in overcoming challenges, understanding complex tasks, and resolving blockers. Provides guidance and support to help them meet their tasks' requirements and deadlines, fostering their professional growth within the team.",
+        "Offers daily support to end-users by addressing their inquiries and resolving any issues they encounter while using the web applications. Provides prompt and effective solutions, ensuring a positive user experience and customer satisfaction."
+      ],
+      "techStack": [
+        "Angular",
+        "React/Next.JS",
+        "Redux",
+        "Tailwind CSS",
+        "Ant Design",
+        "SASS",
+        "Typescript",
+        "CI/CD",
+        "Web Sockets",
+        "NGXS",
+        "RxJS",
+        "Wordpress"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "location": "Remote",
+      "position": "Frontend Developer",
+      "duration": "March 2017 to November 2017",
+      "responsibilities": [
+        "Responsible for developing sophisticated and user-friendly modules for the existing application.",
+        "Takes on the role of Project Lead by setting coding standards, best practices, and ensuring effective collaboration within the team. Provides direction and guidance to team members making sure to deliver the tasks on time."
+      ],
+      "techStack": [
+        "AngularJS",
+        "Bootstrap",
+        "Typescript",
+        "SASS",
+        "Wordpress"
+      ]
+    },
+    {
+      "company": "TSS Trixan (TORO.IO)",
+      "location": "Philippines",
+      "website": "https://www.toro.io",
+      "position": "Frontend Developer",
+      "duration": "April 2015 to November 2017",
+      "responsibilities": [
+        "Responsible for company’s website and e-commerce maintenance",
+        "Takes on the role of OJT Supervisor by setting coding standards, best practices, and ensuring effective collaboration within the team. Provides direction and guidance to trainees making sure to enhance their skills while in the company.",
+        "Conducts thorough code reviews to maintain code quality, consistency, and adherence to best practices. Provides constructive feedback to team members, helping them improve their coding skills and ensuring the overall integrity of the codebase",
+        "Engages in peer programming sessions, ensuring that the team's collective knowledge and expertise are leveraged for optimal outcomes."
+      ],
+      "techStack": [
+        "AngularJS",
+        "Bootstrap",
+        "Typescript",
+        "SASS",
+        "Nunjucks",
+        "Apache Velocity",
+        "NodeJS",
+        "MongoDB",
+        "HTML/CSS",
+        "Gulp"
+      ]
+    },
+    {
+      "company": "TSS Trixan (TORO.IO)",
+      "location": "Philippines",
+      "website": "https://www.toro.io",
+      "position": "Frontend Developer | Intern",
+      "duration": "November 2014 to February 2015",
+      "responsibilities": [
+        "Develops e-commerce websites using the company’s own CMS platform",
+        "Engages in peer programming sessions, ensuring that the team's collective knowledge and expertise are leveraged for optimal outcomes."
+      ],
+      "techStack": [
+        "AngularJS",
+        "Bootstrap",
+        "Typescript",
+        "SASS",
+        "Nunjucks",
+        "Apache Velocity",
+        "NodeJS",
+        "MongoDB",
+        "HTML/CSS",
+        "Gulp"
+      ]
+    }
+  ]
+}

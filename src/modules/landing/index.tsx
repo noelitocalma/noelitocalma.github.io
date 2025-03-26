@@ -1,14 +1,20 @@
-import SocialIcons from "@/components/SocialIcons";
+import { themeAtom } from "@/atoms/theme.atoms";
 import { TypingEffect } from "@/components/TypingEffect";
+import { Divider } from "@heroui/react";
+import { useAtomValue } from "jotai";
+import { BedSingle, Code, Repeat1, Soup } from "lucide-react";
 import * as motion from "motion/react-client";
 import { ReactNode } from "react";
+import GitHubCalendar from "react-github-calendar";
 
 const HighligtedText = ({ children }: { children: ReactNode }) => <span className="bg-slate-200 dark:bg-slate-800 px-1 font-semibold rounded-sm">{children}</span>
 const yearsOfExperience = (new Date()).getFullYear() - 2015;
 
 export default function Landing() {
+  const theme = useAtomValue(themeAtom);
+
   return (
-    <motion.div className="max-w-5xl"
+    <motion.div className="max-w-4xl"
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{
@@ -20,11 +26,11 @@ export default function Landing() {
         },
       }}
     >
-      <div className="text-4xl sm:text-6xl lg:text-8xl font-bold uppercase">
+      <div className="text-4xl sm:text-6xl lg:text-8xl uppercase ">
         <h1>Noelito Calma</h1>
       </div>
 
-      <div className="text-xl sm:text-2xl md:text-3xl font-bold min-h-10">
+      <div className="text-xl sm:text-2xl md:text-3xl min-h-10">
         <TypingEffect fullText={"<frontend developer />"} />
       </div>
 
@@ -37,8 +43,28 @@ export default function Landing() {
           I&apos;m passionate about continuous learning and am excited to explore new industries and technologies to further grow in my career.</p>
       </div>
 
-      <div className="mt-5 py-2 flex gap-2 justify-between w-72">
-        <SocialIcons />
+      <Divider className="my-3" />
+
+      <div className="overflow-auto">
+        <h1 className="mb-3 flex items-center uppercase gap-2 text-xs">
+          <span className="flex items-center gap-2">
+            Eat <Soup className="w-4" />
+          </span>
+          <span>|</span>
+          <span className="flex items-center gap-2">
+            Code <Code className="w-4" />
+          </span>
+          <span>|</span>
+          <span className="flex items-center gap-2">
+            Sleep <BedSingle className="w-4" />
+          </span>
+          <span>|</span>
+          <span className="flex items-center gap-2">
+            Repeat <Repeat1 className="w-4" />
+          </span>
+        </h1>
+        <Divider className="mb-3" />
+        <GitHubCalendar colorScheme={theme ?? 'light'} username="noelitocalma" />
       </div>
     </motion.div>
   )

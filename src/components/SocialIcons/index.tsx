@@ -31,9 +31,9 @@ export default function SocialIcons() {
           key={social.label}
           className="flex gap-1 items-center bg-slate-200 dark:bg-slate-800  p-1 rounded-md flex-1 hover:bg-slate-200 dark:hover:bg-slate-700"
           href={social.link} target="_blank">
-          <Image className="h-4" src={social.icon} alt="" />
-          <h5 className="text-xs flex-1 tracking-tight dark:text-white">{social.label}</h5>
-          <SquareArrowOutUpRight className="min-w-3 w-3 h-3 dark:text-white" />
+          <Image className="h-4" width={16} height={16} src={social.icon} alt="" />
+          <small className="text-xs flex-1 tracking-tight dark:text-white text-default-500">{social.label}</small>
+          <SquareArrowOutUpRight className="min-w-3 w-3 h-3 dark:text-white text-default-500" />
         </a>
       ))}
     </>
