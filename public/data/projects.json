@@ -1,0 +1,324 @@
+{
+  "title": "",
+  "subtitle": "",
+  "details": [
+    {
+      "name": "Pet Shed",
+      "techStack": [
+        "HTML",
+        "SCSS",
+        "Apache Velocity",
+        "jQuery"
+      ],
+      "description": "E-commerce Website",
+      "year": "2015 - 2016",
+      "moreInfo": "https://www.petshed.com/",
+      "contributions": [
+        "Execute the development of the new website.",
+        "Responsible for the maintenance of the website"
+      ]
+    },
+    {
+      "name": "Joe's Pet Meds",
+      "techStack": [
+        "HTML",
+        "SCSS",
+        "Apache Velocity",
+        "jQuery"
+      ],
+      "description": "E-commerce Website",
+      "year": "2015 - 2016",
+      "moreInfo": "https://www.joespetmeds.com/",
+      "contributions": [
+        "Execute the development of the new website.",
+        "Responsible for the maintenance of the website"
+      ]
+    },
+    {
+      "name": "TORO Coder",
+      "techStack": [
+        "AngularJS",
+        "NodeJS",
+        "SCSS"
+      ],
+      "description": "Web IDE and Page Builder",
+      "year": "2015 - 2017",
+      "moreInfo": "https://www.torocloud.com/",
+      "contributions": [
+        "Core contributor which is responsible in developing the web IDE part of the project."
+      ]
+    },
+    {
+      "name": "TORO Chart Builder",
+      "techStack": [
+        "HTML",
+        "SCSS",
+        "AngularJS"
+      ],
+      "description": "create custom charts, provide static and dynamic data(via API)",
+      "year": "2016 - 2017",
+      "moreInfo": "https://www.torocloud.com/cmsstatic/report-builder-optimized.gif",
+      "contributions": [
+        "Core contributor which is responsible in developing the whole module"
+      ]
+    },
+    {
+      "name": "SIVA Health Care App",
+      "techStack": [
+        "HTML",
+        "SCSS",
+        "AngularJS",
+        "Wordpress"
+      ],
+      "description": "Health Care system in the US, the system records the needed treatment of each patient including the follow check up, and also manages the billing to be sent to the Health Care Insurance companies",
+      "year": "2017",
+      "moreInfo": "https://siva.online/",
+      "contributions": [
+        "Core contributor for the frontend part",
+        "Act as a Dev Lead which ensures deadlines are met."
+      ]
+    },
+    {
+      "name": "IMAPPS Web / WIP",
+      "techStack": [
+        "Angular 7+",
+        "SCSS",
+        "Ant Design",
+        "RxJS",
+        "NGXS",
+        "Ag-Grid"
+      ],
+      "description": "IMAPPS Web is an application that provides a real-time record of the production’s progressby recording their output directly to the application. It also provides useful dashboards and reportswhich helps to reduce or eliminate paperwork.",
+      "year": "2018",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the project.",
+        "Provides daily support and assistance to users.",
+        "Takes charge in discussions regarding features with Product Owners and the Director."
+      ]
+    },
+    {
+      "name": "Dashboard Builder",
+      "techStack": [
+        "Angular 9",
+        "SCSS",
+        "Ant Design",
+        "RxJS",
+        "NGXS",
+        "Ag-Grid"
+      ],
+      "description": "Drag and drop of templates, grids, widgets to create your own dashboard",
+      "year": "2019",
+      "moreInfo": "https://youtu.be/IkreGP3laqc",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the project."
+      ]
+    },
+    {
+      "name": "Gantt Chart",
+      "techStack": [
+        "Angular 9",
+        "SCSS",
+        "Ant Design",
+        "RxJS",
+        "NGXS",
+        "Ag-Grid"
+      ],
+      "description": "Plan tasks/items and adjust dates via drag and drop",
+      "year": "2019",
+      "moreInfo": "https://media.giphy.com/media/LOzg19P9Mxfr50Uqae/giphy.gif",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the project."
+      ]
+    },
+    {
+      "name": "UERP Web Reports",
+      "techStack": [
+        "Angular 9",
+        "SCSS",
+        "Ant Design",
+        "RxJS",
+        "NGXS",
+        "Ag-Grid"
+      ],
+      "description": "Tabular Reports",
+      "year": "2019",
+      "moreInfo": "https://giphy.com/gifs/KCf5KIXcpeZAiVl0fe",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the project."
+      ]
+    },
+    {
+      "name": "RFC Portal",
+      "techStack": [
+        "Angular 9",
+        "SCSS",
+        "Ant Design",
+        "RxJS",
+        "NGXS",
+        "Ag-Grid"
+      ],
+      "description": "Creation, approval and tracking of system enhancements and development",
+      "year": "2018",
+      "moreInfo": "http://rfc.luenthai.com/",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the project.",
+        "Provides daily support and assistance to users.",
+        "Takes charge in discussions regarding features with Product Owners and the Director."
+      ]
+    },
+    {
+      "name": "IPOD Web",
+      "techStack": [
+        "Angular 9",
+        "SCSS",
+        "Ant Design",
+        "RxJS",
+        "NGXS",
+        "Ag-Grid"
+      ],
+      "description": "Creation of Operations Bulletin used by the Factory.",
+      "year": "2019",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the project.",
+        "Provides daily support and assistance to users.",
+        "Takes charge in discussions regarding features with Product Owners and the Director."
+      ]
+    },
+    {
+      "name": "NGX-PWD",
+      "techStack": [
+        "Angular 9"
+      ],
+      "description": "Password strength meter and generator",
+      "year": "2020",
+      "moreInfo": "https://www.npmjs.com/package/ngx-pwd",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the module."
+      ]
+    },
+    {
+      "name": "FG Warehouse",
+      "techStack": [
+        "NextJS",
+        "Styled Components",
+        "RSuite",
+        "Redux",
+        "Tailwind CSS",
+        "Ag-Grid"
+      ],
+      "description": "FG Warehouse tracks all the finished goods from Order Uploading to Shipment",
+      "year": "2022",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the project.",
+        "Provides daily support and assistance to users.",
+        "Takes charge in discussions regarding features with Product Owners and the Director."
+      ]
+    },
+    {
+      "name": "IMapps (ERP)",
+      "techStack": [
+        "NextJS",
+        "Styled Components",
+        "RSuite",
+        "Redux",
+        "Tailwind CSS",
+        "Ag-Grid"
+      ],
+      "description": "IMapps is an ERP system which you can manage all factory's order, factory planning and etc.",
+      "year": "2022",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the project.",
+        "Provides daily support and assistance to users.",
+        "Takes charge in discussions regarding features with Product Owners and the Director."
+      ]
+    },
+    {
+      "name": "Material Management (MM)",
+      "techStack": [
+        "NextJS",
+        "Styled Components",
+        "RSuite",
+        "Redux",
+        "Tailwind CSS",
+        "Ag-Grid"
+      ],
+      "description": "Material Management (MM) tracks all incoming, outgoing, inventory of the materials in the warehouse",
+      "year": "2023",
+      "contributions": [
+        "Primary contributor responsible for the entire frontend development of the project.",
+        "Provides daily support and assistance to users.",
+        "Takes charge in discussions regarding features with Product Owners and the Director."
+      ]
+    },
+    {
+      "name": "ProductPinion",
+      "techStack": [
+        "NextJS",
+        "MUI",
+        "Bootstrap",
+        "Jotai",
+        "Auth0"
+      ],
+      "description": "A/B Testing Software for Amazon Sellers",
+      "year": "2023",
+      "moreInfo": "https://productpinion.com/",
+      "contributions": [
+        "Core contributor responsible for the entire frontend development of the project.",
+        "Provides daily support and assistance to users."
+      ]
+    },
+    {
+      "name": "Variationizer",
+      "techStack": [
+        "NextJS",
+        "MUI",
+        "Bootstrap",
+        "Jotai",
+        "Auth0",
+        "Konva"
+      ],
+      "description": "Amazon Main Images Made Easy. Create stunning, high-converting images that drive clicks and dominate your category",
+      "year": "2024",
+      "moreInfo": "https://variationizer.com/",
+      "contributions": [
+        "Core contributor responsible for the entire frontend development of the project.",
+        "Provides daily support and assistance to users."
+      ]
+    },
+    {
+      "name": "Imagechek",
+      "techStack": [
+        "NextJS",
+        "MUI",
+        "Bootstrap",
+        "Jotai",
+        "Auth0",
+        "Rekognition"
+      ],
+      "description": "AI Image Analysis using the Amazon Rekognition API",
+      "year": "2024",
+      "moreInfo": "https://imagechek.com/",
+      "contributions": [
+        "Core contributor responsible for the entire frontend development of the project."
+      ]
+    },
+    {
+      "name": "Skill Hub",
+      "techStack": [
+        "NextJS",
+        "MUI",
+        "Bootstrap",
+        "Zustand",
+        "Tailwind CSS"
+      ],
+      "description": "Worker Skill Assessment and Incentive made easy",
+      "year": "2024",
+      "moreInfo": "",
+      "contributions": [
+        "Core contributor responsible for the entire frontend development of the project.",
+        "Provides daily support and assistance to users.",
+        "Takes charge in discussions regarding features with Product Owners."
+      ]
+    }
+  ]
+}
