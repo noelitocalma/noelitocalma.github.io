@@ -18,6 +18,8 @@ const useProjects = () => {
         }
 
         const _data = await response.json();
+        _data.details = _data?.details?.reverse() ?? [];
+
         setData(_data);
       } catch (err) {
         setError("Unable to load work experiences.");

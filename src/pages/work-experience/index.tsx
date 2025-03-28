@@ -1,4 +1,4 @@
-import WorkExperience from "@/modules/work-experiences";
+import WorkExperience from "@/modules/work-experience";
 
 export default function WorkExperiencePage() {
   return (

@@ -23,8 +23,8 @@ const pages: Page[] = [
     icon: () => <HomeIcon />
   },
   {
-    label: "Work Experiences",
-    path: "/work-experiences",
+    label: "Work Experience",
+    path: "/work-experience",
     slogan: "Shaping real-world impact",
     icon: () => <Code />
   },

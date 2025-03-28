@@ -15,7 +15,7 @@
       "year": "2015 - 2016",
       "moreInfo": "https://www.petshed.com/",
       "contributions": [
-        "Execute the development of the new website.",
+        "Execute the development of the new design",
         "Responsible for the maintenance of the website"
       ]
     },
@@ -31,8 +31,9 @@
       "description": "E-commerce Website",
       "year": "2015 - 2016",
       "moreInfo": "https://www.joespetmeds.com/",
+      "image": "https://www.joespetmeds.com/html5/static/images/joespetmeds.images/jpm-logo-flat.png",
       "contributions": [
-        "Execute the development of the new website.",
+        "Execute the development of the new design.",
         "Responsible for the maintenance of the website"
       ]
     },
@@ -68,6 +69,7 @@
     },
     {
       "name": "Health Care App",
+      "company": "Confidential",
       "techStack": [
         "HTML",
         "SCSS",
@@ -131,7 +133,7 @@
       ],
       "description": "Plan tasks/items and adjust dates via drag and drop",
       "year": "2019",
-      "moreInfo": "https://media.giphy.com/media/LOzg19P9Mxfr50Uqae/giphy.gif",
+      "image": "https://media.giphy.com/media/LOzg19P9Mxfr50Uqae/giphy.gif",
       "contributions": [
         "Primary contributor responsible for the entire frontend development of the project."
       ]
@@ -149,7 +151,7 @@
       ],
       "description": "Tabular Reports",
       "year": "2019",
-      "moreInfo": "https://giphy.com/gifs/KCf5KIXcpeZAiVl0fe",
+      "image": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXplNXE0aGtjOWZhYzJ6OHllc2R6Nnc1N2V1YnptMnZkNjc1cTlvcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KCf5KIXcpeZAiVl0fe/giphy.gif",
       "contributions": [
         "Primary contributor responsible for the entire frontend development of the project."
       ]
@@ -167,6 +169,7 @@
       ],
       "description": "Creation, approval and tracking of system enhancements and development",
       "year": "2018",
+      "image": "https://previews.dropbox.com/p/thumb/ACmEp17J7P4Op-hroM_QgnJd_jc-jvGWk-2OtZpy2k-0ukxKjBLPZJMX2FGByoqeH2Q9UFKWjgrj8AJQscDsMQ2oxPE3vXiOP-Ta0HJHCt87IHZi5RDuask-bDLRHrjoD_VzBCbJDPbrYng8FO6AAgOTqTAlB98a_4qDOblu3niuUWfP0H4GjSzX81DIuanfw2_DhH3tyoe0ApP5ar0uMlVzDQzFSRo4roSFD6pnXU-PeIlTut9p7Y0cqnuAVp2OYWE1C7w3nSlPIzbkSCgkSYLY-aWvZ6x5SPp_Zuo6q2tA-WEJ7Ec9whhPqZzyWSUVeBg/p.png",
       "moreInfo": "http://rfc.luenthai.com/",
       "contributions": [
         "Primary contributor responsible for the entire frontend development of the project.",
@@ -195,12 +198,14 @@
     },
     {
       "name": "NGX-PWD",
+      "company": "Personal",
       "techStack": [
         "Angular 9"
       ],
       "description": "Password strength meter and generator",
       "year": "2020",
       "moreInfo": "https://www.npmjs.com/package/ngx-pwd",
+      "image": "https://previews.dropbox.com/p/thumb/AClRKMN4rj2NUzEwZVRCYCwRd17BTHsNc69PbzSj_2IO4GF60YxStVsg5Cva7yIqSuRBClhADE3iuvsYPrxwyEUv3nEuo-wfe7mh-vR6AIGutY7UG_swH-J5dRgCgQX8MU81zCWt-8yIXftS_u1NFxjwT3f5WEycvJ5f-2cFPS4TZfEfXEYFjUSVKh_uEk_fid9cjHO_ZEAc8-4KlNP8hu_6OYnYb05Xf9KkX2prk6EuKIO_LdRFjVDNtT5My-OPM87cm2XtH5hXAwRpVjAwMJrdhZN4bGcFMpxv3CjN40zop21x4dsZlVZgEZ2q_3hvqfM/p.png",
       "contributions": [
         "Primary contributor responsible for the entire frontend development of the module."
       ]
@@ -276,6 +281,7 @@
       ],
       "description": "A/B Testing Software for Amazon Sellers",
       "year": "2023",
+      "image": "https://i.ontraport.com/103013.8eccc91f2cfb162a390a3ef4484bc0cd.PNG",
       "moreInfo": "https://productpinion.com/",
       "contributions": [
         "Core contributor responsible for the entire frontend development of the project.",
@@ -296,6 +302,7 @@
       "description": "Amazon Main Images Made Easy. Create stunning, high-converting images that drive clicks and dominate your category",
       "year": "2024",
       "moreInfo": "https://variationizer.com/",
+      "image": "https://i.ontraport.com/103013.a1baa7d1363b17e3439863c777aef192.PNG",
       "contributions": [
         "Core contributor responsible for the entire frontend development of the project.",
         "Provides daily support and assistance to users."
@@ -314,6 +321,7 @@
       ],
       "description": "AI Image Analysis using the Amazon Rekognition API",
       "year": "2024",
+      "image": "https://imagechek.com/_next/static/media/imagechek-logo.7c6c5dfd.png",
       "moreInfo": "https://imagechek.com/",
       "contributions": [
         "Core contributor responsible for the entire frontend development of the project."

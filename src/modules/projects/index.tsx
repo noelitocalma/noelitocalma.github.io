@@ -1,7 +1,7 @@
 import Error from "@/components/Error";
 import LoadingScreen from "@/components/LoadingScreen";
-import { Alert, Button, Card, CardBody, CardFooter, CardHeader, Divider, Kbd } from "@heroui/react";
-import { AtSign, Calendar, Link, MapPin, NotebookTabs, Star } from "lucide-react";
+import { Alert, Card, CardBody, CardHeader, Divider, Kbd } from "@heroui/react";
+import { Images, NotebookTabs, Star } from "lucide-react";
 import * as motion from "motion/react-client";
 
 import useProjects from "./hooks/use-projects";
@@ -23,23 +23,19 @@ export default function Projects() {
       <h1 className="text-4xl">{data?.title}</h1>
       <h3>{data?.subtitle}</h3>
 
-      <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 mt-10">
-        {data?.details?.map((detail, index) => (
-          <motion.div
-            className="max-w-full"
-            key={`work.${index}`}
-            initial={{ opacity: 0, y: -200 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: index * 0.2,
-              type: 'spring',
-              stiffness: 120,
-            }}
-            style={{
-              zIndex: data?.details?.length - index
-            }}
-            exit={{ opacity: 0 }}
-          >
+      <motion.div
+        className="max-w-full"
+        initial={{ opacity: 0, y: -200 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          type: 'spring',
+          stiffness: 120,
+        }}
+        exit={{ opacity: 0 }}
+      >
+        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 mt-10">
+          {data?.details?.map((detail, index) => (
+
             <Card radius="sm" className="shadow dark:bg-slate-900 h-full">
               <CardHeader className="justify-between items-start">
                 <div>
@@ -56,7 +52,7 @@ export default function Projects() {
                 </div>
               </CardHeader>
 
-              {/* {detail.image && (
+              {detail.image ? (
                 <Image
                   alt={detail.name}
                   className="w-full object-contain bg-slate-100 dark:bg-slate-800 h-[140px]"
@@ -64,10 +60,15 @@ export default function Projects() {
                   width={200}
                   height={200}
                 />
-              )} */}
+              ) : (
+                <div className="h-[140px] bg-slate-100 flex items-center flex-col dark:bg-slate-800  justify-center text-default-400">
+                  <Images className="w-10 h-10 mb-2" />
+                  <small className="uppercase">No preview available</small>
+                </div>
+              )}
 
               <CardBody>
-                <div className="text-default-500">
+                <div className="text-default-500 flex-1">
                   <p className="text-sm flex items-center gap-2">
                     <NotebookTabs className="w-4 min-w-4" />
                     {detail.description}
@@ -98,10 +99,9 @@ export default function Projects() {
                 </div>
               </CardBody>
             </Card>
-          </motion.div>
-        ))}
-      </div>
-
+          ))}
+        </div>
+      </motion.div>
       <Alert color="danger" className="mt-10">
         All projects shown in this portfolio are either personal or completed for clients/companies.
         All intellectual property rights remain with the respective companies.

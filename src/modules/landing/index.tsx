@@ -15,16 +15,13 @@ export default function Landing() {
 
   return (
     <motion.div className="max-w-4xl"
-      initial={{ opacity: 0, scale: 0 }}
-      animate={{ opacity: 1, scale: 1 }}
+      initial={{ opacity: 0, y: -200 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{
-        duration: 0.4,
-        scale: {
-          type: "spring",
-          visualDuration: 0.4,
-          bounce: 0.5
-        },
+        type: 'spring',
+        stiffness: 120,
       }}
+      exit={{ opacity: 0 }}
     >
       <div className="text-4xl sm:text-6xl lg:text-8xl uppercase ">
         <h1>Noelito Calma</h1>
