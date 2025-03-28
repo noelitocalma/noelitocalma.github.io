@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="author" content="Noelito Calma" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
 
         <meta property="og:title" content="Noelito Calma | Senior Frontend Developer" />
         <meta property="og:description" content="Noelito Calma is a Senior Frontend Developer with expertise in building scalable and efficient web applications using React, Angular, Tailwind CSS, and Laravel." />
