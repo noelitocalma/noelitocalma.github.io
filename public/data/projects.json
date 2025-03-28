@@ -1,9 +1,10 @@
 {
-  "title": "",
-  "subtitle": "",
+  "title": "Turning Vision Into Reality",
+  "subtitle": "Some of the projects I have worked on so far",
   "details": [
     {
       "name": "Pet Shed",
+      "company": "TORO.IO",
       "techStack": [
         "HTML",
         "SCSS",
@@ -20,6 +21,7 @@
     },
     {
       "name": "Joe's Pet Meds",
+      "company": "TORO.IO",
       "techStack": [
         "HTML",
         "SCSS",
@@ -36,6 +38,7 @@
     },
     {
       "name": "TORO Coder",
+      "company": "TORO.IO",
       "techStack": [
         "AngularJS",
         "NodeJS",
@@ -50,6 +53,7 @@
     },
     {
       "name": "TORO Chart Builder",
+      "company": "TORO.IO",
       "techStack": [
         "HTML",
         "SCSS",
@@ -63,7 +67,7 @@
       ]
     },
     {
-      "name": "SIVA Health Care App",
+      "name": "Health Care App",
       "techStack": [
         "HTML",
         "SCSS",
@@ -72,7 +76,6 @@
       ],
       "description": "Health Care system in the US, the system records the needed treatment of each patient including the follow check up, and also manages the billing to be sent to the Health Care Insurance companies",
       "year": "2017",
-      "moreInfo": "https://siva.online/",
       "contributions": [
         "Core contributor for the frontend part",
         "Act as a Dev Lead which ensures deadlines are met."
@@ -80,6 +83,7 @@
     },
     {
       "name": "IMAPPS Web / WIP",
+      "company": "Luen Thai Holdings Limited",
       "techStack": [
         "Angular 7+",
         "SCSS",
@@ -98,6 +102,7 @@
     },
     {
       "name": "Dashboard Builder",
+      "company": "Luen Thai Holdings Limited",
       "techStack": [
         "Angular 9",
         "SCSS",
@@ -115,6 +120,7 @@
     },
     {
       "name": "Gantt Chart",
+      "company": "Luen Thai Holdings Limited",
       "techStack": [
         "Angular 9",
         "SCSS",
@@ -132,6 +138,7 @@
     },
     {
       "name": "UERP Web Reports",
+      "company": "Luen Thai Holdings Limited",
       "techStack": [
         "Angular 9",
         "SCSS",
@@ -149,6 +156,7 @@
     },
     {
       "name": "RFC Portal",
+      "company": "Luen Thai Holdings Limited",
       "techStack": [
         "Angular 9",
         "SCSS",
@@ -168,6 +176,7 @@
     },
     {
       "name": "IPOD Web",
+      "company": "Luen Thai Holdings Limited",
       "techStack": [
         "Angular 9",
         "SCSS",
@@ -198,6 +207,7 @@
     },
     {
       "name": "FG Warehouse",
+      "company": "Luen Thai Holdings Limited",
       "techStack": [
         "NextJS",
         "Styled Components",
@@ -206,6 +216,7 @@
         "Tailwind CSS",
         "Ag-Grid"
       ],
+      "image": "https://uc0909414f1035fb85f505204184.previews.dropboxusercontent.com/p/thumb/ACnPNDX6lJ-kdJijm0aDZfDOWNmrsapY8DesnlsZYVM37LFdTuB5aG6oVWyV2DE7_LFynVPH5Wp_NckcnwTISFIQ94noIIJd3D2INJr7m-qwi2wv2n6M6yhiQ5PyfF4_Xhe64YtETJSVRP1uJuA-0HFYX-7-HyNQY_U9Hzgw6K4Jtt1Bu7HZQMGG_WASbeCnoo6uihgHUAZHEDcl8swQPh6d69D37NROh8pvkLSfaeo_Rssu6J0Hpqg3bdPvAhmQ9iWTKIzlfH_S7iW77lFc6vKIJ1jYMZpCmPrh4YcyHqunYiZ5OL8F0EpMkVqRZjgxuNAPbIkdpaoIoG5_AW2WZQwV8aA1n-ZCE92stDQKu_KvBLDKvB14vKi9oecjs5lbKpo/p.png?is_prewarmed=true",
       "description": "FG Warehouse tracks all the finished goods from Order Uploading to Shipment",
       "year": "2022",
       "contributions": [
@@ -216,6 +227,7 @@
     },
     {
       "name": "IMapps (ERP)",
+      "company": "Luen Thai Holdings Limited",
       "techStack": [
         "NextJS",
         "Styled Components",
@@ -234,6 +246,7 @@
     },
     {
       "name": "Material Management (MM)",
+      "company": "Luen Thai Holdings Limited",
       "techStack": [
         "NextJS",
         "Styled Components",
@@ -242,6 +255,7 @@
         "Tailwind CSS",
         "Ag-Grid"
       ],
+      "image": "https://uc49b1d41f6765dce882930c7486.previews.dropboxusercontent.com/p/thumb/AClErJK8I-nbrXBiVJzHiUKWL2Ofmr5lpMYlC4slIqFZXUMmdzYWKJJY2JZwjZ9deCHjOkW6wSbQClBi1trq-T-FSTeYzHCkJnOqw4sKL0tWjzaXV_TWyvwicsuhtWJqxU3zcqqcjhh1bhpLHFqGDfh2JsiygdkHrJQ0DCb35r_uICfInb5XVdNo7Pg3owNdc_q6pVW6LlFosIiMY41sF49FSNE46Cit9RSqXZzHWoGo38Xt_TFBAS0EEvVC3JcvIBJYc1RrIk6zBKujchnhth8de9h0uh6b0SZAw9saw8gHeVUmU4EKQA4kntSRe2Gh54l997NW8rt_GE7UBOlGJiiri5y3R1mGLgclz-njDireBSzO9_ijhkO4vCASzj9XZ0g/p.png?is_prewarmed=true",
       "description": "Material Management (MM) tracks all incoming, outgoing, inventory of the materials in the warehouse",
       "year": "2023",
       "contributions": [
@@ -252,6 +266,7 @@
     },
     {
       "name": "ProductPinion",
+      "company": "ProductPinion",
       "techStack": [
         "NextJS",
         "MUI",
@@ -269,6 +284,7 @@
     },
     {
       "name": "Variationizer",
+      "company": "ProductPinion",
       "techStack": [
         "NextJS",
         "MUI",
@@ -287,6 +303,7 @@
     },
     {
       "name": "Imagechek",
+      "company": "ProductPinion",
       "techStack": [
         "NextJS",
         "MUI",
@@ -304,6 +321,7 @@
     },
     {
       "name": "Skill Hub",
+      "company": "I Apparel International Group PTE Ltd.",
       "techStack": [
         "NextJS",
         "MUI",
@@ -311,6 +329,7 @@
         "Zustand",
         "Tailwind CSS"
       ],
+      "image": "https://uc4a15670676ae64810fefb098d7.previews.dropboxusercontent.com/p/thumb/ACl8W0Dxud24HL4AZR4aV1w-VkDjNDlZFfKSbYkCcCRRezblEOmkx8i5uKomVflY27wcv16rDSextmAc-w9wwK13Y32VQnbgeG_IbRa5T8WY-wR2oNLqJ2BG8Z7rQOw8NSIIIlsebQeGEnG26e-syor632zreeYy0b4njvaXr3n8YK_FB8nUlmxgqn59OUm8Zb9EB91SfWAylQYyIVYO0sEVeLZk2AzNzvhdtMvfwZrDHorxjnpIXXqHRtDMxh1dInMd_Dc1A_8Y2-kZYjBMDVQeQOBltoKqYgHrdtszBym7xSlufpsF0-9xkh3uYivYenv4QbNJVeGOFiDjmTyZKyK1ZFf0Yj7uuRazlXnMC0jMCYC_C7NfGngFE7afcjE-n8yf8d65_dPOSpehGhl1arF3/p.png?is_prewarmed=true",
       "description": "Worker Skill Assessment and Incentive made easy",
       "year": "2024",
       "moreInfo": "",

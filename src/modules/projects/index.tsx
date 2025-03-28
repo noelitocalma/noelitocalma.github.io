@@ -1,6 +1,6 @@
 import Error from "@/components/Error";
 import LoadingScreen from "@/components/LoadingScreen";
-import { Button, Card, CardBody, CardFooter, CardHeader, Divider, Kbd } from "@heroui/react";
+import { Alert, Button, Card, CardBody, CardFooter, CardHeader, Divider, Kbd } from "@heroui/react";
 import { AtSign, Calendar, Link, MapPin, NotebookTabs, Star } from "lucide-react";
 import * as motion from "motion/react-client";
 
@@ -41,18 +41,30 @@ export default function Projects() {
             exit={{ opacity: 0 }}
           >
             <Card radius="sm" className="shadow dark:bg-slate-900 h-full">
-              <CardHeader className="justify-between">
-                <h1 className="text-lg uppercase font-semibold">{detail.name}</h1>
-                <span>[{detail.year}]</span>
+              <CardHeader className="justify-between items-start">
+                <div>
+                  <h1 className="leading-4 text-lg uppercase font-semibold">{detail.name}</h1>
+                  <small style={{ fontSize: 11 }}>{detail.company}</small>
+                </div>
+                <div className="flex flex-col items-end">
+                  <span className="leading-4">[{detail.year}]</span>
+                  {detail.moreInfo && (
+                    <a href={detail.moreInfo} target="_blank" className="text-default-400">
+                      <small style={{ fontSize: 11 }}>more info</small>
+                    </a>
+                  )}
+                </div>
               </CardHeader>
 
-              <Image
-                alt={detail.name}
-                className="w-full object-cover h-[140px]"
-                src="https://images.unsplash.com/photo-1741851374411-9528e6d2f33f?q=80&w=4000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                width={200}
-                height={200}
-              />
+              {/* {detail.image && (
+                <Image
+                  alt={detail.name}
+                  className="w-full object-contain bg-slate-100 dark:bg-slate-800 h-[140px]"
+                  src={detail.image}
+                  width={200}
+                  height={200}
+                />
+              )} */}
 
               <CardBody>
                 <div className="text-default-500">
@@ -85,23 +97,16 @@ export default function Projects() {
                   ))}
                 </div>
               </CardBody>
-
-              <CardFooter className="">
-                <Button
-                  className="text-tiny text-white bg-black/20"
-                  color="default"
-                  radius="lg"
-                  size="sm"
-                  variant="flat"
-                >
-                  Notify me
-                </Button>
-              </CardFooter>
-
             </Card>
           </motion.div>
         ))}
       </div>
+
+      <Alert color="danger" className="mt-10">
+        All projects shown in this portfolio are either personal or completed for clients/companies.
+        All intellectual property rights remain with the respective companies.
+        My role in these projects was to contribute in the capacity of Frontend Developer.
+      </Alert>
     </>
   )
 }

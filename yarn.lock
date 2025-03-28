@@ -5392,6 +5392,11 @@ tapable@^2.2.0:
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
   integrity sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==
 
+tech-stack-icons@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tech-stack-icons/-/tech-stack-icons-2.1.0.tgz#01a7f1f0caedffe5c52de68f9b1f0ff9ce897301"
+  integrity sha512-6L8WPegruqXfS6U7oLPE2VBCJGXsXW4P97iorZpyI4DWBQxt0m+rLeGHpuu2tWb5jcyrIq1FEfDfron+DMSj/Q==
+
 thenify-all@^1.0.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/thenify-all/-/thenify-all-1.6.0.tgz#1a1918d402d8fc3f98fbf234db0bcc8cc10e9726"

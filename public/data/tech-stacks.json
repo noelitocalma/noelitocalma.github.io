@@ -1,0 +1,26 @@
+{
+  "title": "From Concept to Code, Powered by Cutting-Edge Tools",
+  "subtitle": "Tech stack I used and familiar with",
+  "details": [
+    {
+      "name": "NEXT.JS",
+      "icon": "nextjs",
+      "level": "5"
+    },
+    {
+      "name": "React.JS",
+      "icon": "reactjs",
+      "level": "5"
+    },
+    {
+      "name": "Angular",
+      "icon": "angular",
+      "level": "5"
+    },
+    {
+      "name": "NodeJS",
+      "icon": "nodejs",
+      "level": "4"
+    }
+  ]
+}
