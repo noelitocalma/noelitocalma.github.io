@@ -21,7 +21,7 @@ const useProjects = () => {
         _data.details = _data?.details?.reverse() ?? [];
 
         setData(_data);
-      } catch (err) {
+      } catch {
         setError("Unable to load work experiences.");
       } finally {
         setLoading(false);

@@ -19,7 +19,7 @@ const useWorkExperience = () => {
 
         const _data = await response.json();
         setData(_data);
-      } catch (err) {
+      } catch {
         setError("Unable to load work experiences.");
       } finally {
         setLoading(false);

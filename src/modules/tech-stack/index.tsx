@@ -50,7 +50,7 @@ export default function TechStack() {
             <div className="text-xl uppercase font-bold mb-4">{detail.category}</div>
             <div className="flex flex-wrap gap-8">
               {detail.items.map(item => (
-                <Card radius="sm" className="shadow dark:bg-slate-900">
+                <Card key={item.name} radius="sm" className="shadow dark:bg-slate-900">
                   <CardBody>
                     {!item.png && !item.svg && (<StackIcon name={item.icon} />)}
                     {item.png && (
