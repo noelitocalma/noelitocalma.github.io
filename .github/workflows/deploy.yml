@@ -23,15 +23,13 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Build and export Next.js
-        run: yarn build && yarn export
+      - name: Build
+        run: yarn build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           folder: out
           branch: gh-pages
-          user_name: ${{ secrets.USER_NAME }}
-          user_email: ${{ secrets.USER_EMAIL }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
