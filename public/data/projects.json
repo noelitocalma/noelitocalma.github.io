@@ -221,7 +221,7 @@
         "Tailwind CSS",
         "Ag-Grid"
       ],
-      "image": "https://uc0909414f1035fb85f505204184.previews.dropboxusercontent.com/p/thumb/ACnPNDX6lJ-kdJijm0aDZfDOWNmrsapY8DesnlsZYVM37LFdTuB5aG6oVWyV2DE7_LFynVPH5Wp_NckcnwTISFIQ94noIIJd3D2INJr7m-qwi2wv2n6M6yhiQ5PyfF4_Xhe64YtETJSVRP1uJuA-0HFYX-7-HyNQY_U9Hzgw6K4Jtt1Bu7HZQMGG_WASbeCnoo6uihgHUAZHEDcl8swQPh6d69D37NROh8pvkLSfaeo_Rssu6J0Hpqg3bdPvAhmQ9iWTKIzlfH_S7iW77lFc6vKIJ1jYMZpCmPrh4YcyHqunYiZ5OL8F0EpMkVqRZjgxuNAPbIkdpaoIoG5_AW2WZQwV8aA1n-ZCE92stDQKu_KvBLDKvB14vKi9oecjs5lbKpo/p.png?is_prewarmed=true",
+      "image": "https://previews.dropbox.com/p/thumb/ACnyl_K_HUrBRxpTF_UfRco3AOl37tzX4knu1XIjVpdOVAxH6u4o-Gpl1txeXVfN-leEbPkbvwITZYLF7Mu_w4mRK5SgWmAbxLIusKAOU23TrCktXEmeLL309s5fHnFOOxgRluWiINU0ZtBjCxKHE6K90dx3R8bw6qdV5AcD2FoSU7aBCReInRhkYGiAlOsLlvZ-oC2TRT6dJA6NlCbtj3BgywXGb6nJ1AusXKCQCC_jX0sFjIzpl0lhRSrTCn9QW6-nMVcvDtFC16dI2wq5SRgy2zxdutGuzB5rKtWGW59D-LVGdJGVd77BEXQ-958ITNo/p.png",
       "description": "FG Warehouse tracks all the finished goods from Order Uploading to Shipment",
       "year": "2022",
       "contributions": [
@@ -260,7 +260,7 @@
         "Tailwind CSS",
         "Ag-Grid"
       ],
-      "image": "https://uc49b1d41f6765dce882930c7486.previews.dropboxusercontent.com/p/thumb/AClErJK8I-nbrXBiVJzHiUKWL2Ofmr5lpMYlC4slIqFZXUMmdzYWKJJY2JZwjZ9deCHjOkW6wSbQClBi1trq-T-FSTeYzHCkJnOqw4sKL0tWjzaXV_TWyvwicsuhtWJqxU3zcqqcjhh1bhpLHFqGDfh2JsiygdkHrJQ0DCb35r_uICfInb5XVdNo7Pg3owNdc_q6pVW6LlFosIiMY41sF49FSNE46Cit9RSqXZzHWoGo38Xt_TFBAS0EEvVC3JcvIBJYc1RrIk6zBKujchnhth8de9h0uh6b0SZAw9saw8gHeVUmU4EKQA4kntSRe2Gh54l997NW8rt_GE7UBOlGJiiri5y3R1mGLgclz-njDireBSzO9_ijhkO4vCASzj9XZ0g/p.png?is_prewarmed=true",
+      "image": "https://previews.dropbox.com/p/thumb/ACmW0YF229l7hb34kzWAB9ygvxM0voKRmayCnPLdNBi0-NvvNIjabxkGzf6Ml5Eg4iLCFU5MSnbQeUc1zaXZh98mPEMFM9g7d8SmwOhsZSEyk1sKWsqbdjW7gO58bXkicxKcEaiON_dcdUnEde8-UAqDilSI960MaTUIBeivEMt2Q8jSiiuuRK54tzDhFTD7NKg2Er2hLpKzOeINV0rfQDxWq6NuV6PvQQtOW4Xp--l-45_uJ2VvPnWtfwh1G5QXdxT3SJMcWwQy1WayGS6OCQ3swBL46j7PhGEZbhAELMq4TxF-B3HLDZrQRQN-p8zJtu4/p.png",
       "description": "Material Management (MM) tracks all incoming, outgoing, inventory of the materials in the warehouse",
       "year": "2023",
       "contributions": [
@@ -279,13 +279,14 @@
         "Jotai",
         "Auth0"
       ],
-      "description": "A/B Testing Software for Amazon Sellers",
+      "description": "Sell more with real shopper insights",
       "year": "2023",
       "image": "https://i.ontraport.com/103013.8eccc91f2cfb162a390a3ef4484bc0cd.PNG",
       "moreInfo": "https://productpinion.com/",
       "contributions": [
-        "Core contributor responsible for the entire frontend development of the project.",
-        "Provides daily support and assistance to users."
+        "Key contributor overseeing frontend development for new modules",
+        "Collaborates with the CTO to maintain the frontend codebase",
+        "Offers daily support and assistance to users."
       ]
     },
     {
@@ -304,8 +305,8 @@
       "moreInfo": "https://variationizer.com/",
       "image": "https://i.ontraport.com/103013.a1baa7d1363b17e3439863c777aef192.PNG",
       "contributions": [
-        "Core contributor responsible for the entire frontend development of the project.",
-        "Provides daily support and assistance to users."
+        "Key contributor overseeing frontend development for new and existing features",
+        "Offers daily support and assistance to users."
       ]
     },
     {
@@ -324,7 +325,7 @@
       "image": "https://imagechek.com/_next/static/media/imagechek-logo.7c6c5dfd.png",
       "moreInfo": "https://imagechek.com/",
       "contributions": [
-        "Core contributor responsible for the entire frontend development of the project."
+        "Key contributor overseeing frontend development for new and existing features"
       ]
     },
     {

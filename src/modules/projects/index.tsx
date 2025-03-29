@@ -33,10 +33,11 @@ export default function Projects() {
         }}
         exit={{ opacity: 0 }}
       >
-        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 mt-10">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 mt-10" >
           {data?.details?.map((detail, index) => (
 
-            <Card key={'detail.' + detail.name} radius="sm" className="shadow dark:bg-slate-900 h-full">
+            <Card
+              key={'detail.' + detail.name} radius="sm" className="shadow dark:bg-slate-900 h-full">
               <CardHeader className="justify-between items-start">
                 <div>
                   <h1 className="leading-4 text-lg uppercase font-semibold">{detail.name}</h1>
