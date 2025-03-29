@@ -16,6 +16,11 @@
           "level": 5
         },
         {
+          "name": "React Query",
+          "icon": "reactquery",
+          "level": 5
+        },
+        {
           "name": "Angular",
           "icon": "angular",
           "level": 5
@@ -148,25 +153,35 @@
       "category": "Version Control",
       "items": [
         {
+          "name": "GIT",
+          "icon": "git",
+          "level": 5
+        },
+        {
           "name": "Github",
           "icon": "github",
           "level": 4
         },
         {
+          "name": "BitBucket",
+          "icon": "bitbucket",
+          "level": 5
+        },
+        {
           "name": "Gitlab",
           "icon": "gitlab",
           "level": 3
-        },
-        {
-          "name": "GIT",
-          "icon": "git",
-          "level": 5
         }
       ]
     },
     {
       "category": "Others",
       "items": [
+        {
+          "name": "Postman",
+          "icon": "postman",
+          "level": 4
+        },
         {
           "name": "Jira",
           "icon": "jira",
@@ -207,7 +222,7 @@
           "name": "Apache",
           "icon": "apache",
           "level": 3
-        }     
+        }
       ]
     }
   ]

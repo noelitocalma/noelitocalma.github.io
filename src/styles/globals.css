@@ -24,7 +24,7 @@ body > div {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Public Sans", "Public Sans Fallback", Helvetica, sans-serif;
+  font-family: "Raleway", "Raleway Fallback", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

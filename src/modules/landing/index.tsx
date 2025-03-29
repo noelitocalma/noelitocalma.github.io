@@ -23,7 +23,7 @@ export default function Landing() {
       }}
       exit={{ opacity: 0 }}
     >
-      <div className="text-4xl sm:text-6xl lg:text-8xl uppercase ">
+      <div className="text-4xl sm:text-6xl lg:text-8xl uppercase">
         <h1>Noelito Calma</h1>
       </div>
 

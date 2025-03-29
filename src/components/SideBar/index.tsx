@@ -107,7 +107,7 @@ export default function SideBar() {
             <CardHeader className="justify-between">
               <div className="flex gap-3">
                 <div className="flex flex-col gap-2 items-start justify-center">
-                  <h4 className="text-2xl uppercase leading-none text-default-600">Noelito Calma</h4>
+                  <h1 className="text-2xl uppercase leading-none">Noelito Calma</h1>
                   <h5 className="text-xs uppercase tracking-tight text-default-400 h-4 dark:text-white">
                     <TypingEffect fullText={"<frontend developer />"} />
                   </h5>

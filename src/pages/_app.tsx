@@ -4,15 +4,15 @@ import { themeAtom } from "@/atoms/theme.atoms";
 import ThemeToggler from "@/components/ThemeToggler";
 import SideBar from "@/components/SideBar";
 import { useAtomValue } from "jotai";
-import { Public_Sans } from "next/font/google";
+import { Raleway } from "next/font/google";
 import Head from "next/head";
 
 import Providers from "../providers/providers";
 
 import type { AppProps } from "next/app";
 import RandomCircles from "@/components/AnimatedRandomBoxes";
-const PublicSans = Public_Sans({
-  variable: '--font-public-sans',
+const RalewaySans = Raleway({
+  variable: '--font-raleway-sans',
   subsets: ["latin"]
 })
 
@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="twitter:image" content="" />
         <meta name="twitter:card" content="" />
       </Head>
-      <div className={`${PublicSans.variable} min-h-screen overflow-hidden z-10 ${theme}`}>
+      <div className={`${RalewaySans.variable} min-h-screen overflow-hidden z-10 ${theme}`}>
         <Providers>
           <div className="flex overflow-hidden md:ml-[300px]">
             <SideBar />
