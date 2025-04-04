@@ -336,7 +336,9 @@
         "MUI",
         "Bootstrap",
         "Zustand",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "Laravel",
+        "PostgreSQL"
       ],
       "image": "https://i.imgur.com/HlguT9k.png",
       "description": "Worker Skill Assessment and Incentive made easy",
