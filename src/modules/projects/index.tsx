@@ -107,6 +107,7 @@ export default function Projects() {
         All projects shown in this portfolio are either personal or completed for clients/companies.
         All intellectual property rights remain with the respective companies.
         My role in these projects was to contribute in the capacity of Frontend Developer.
+        If you are interested in the projects shown here, please directly contact the company.
       </Alert>
     </>
   )

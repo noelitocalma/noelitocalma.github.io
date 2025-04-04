@@ -169,7 +169,7 @@
       ],
       "description": "Creation, approval and tracking of system enhancements and development",
       "year": "2018",
-      "image": "https://previews.dropbox.com/p/thumb/ACmEp17J7P4Op-hroM_QgnJd_jc-jvGWk-2OtZpy2k-0ukxKjBLPZJMX2FGByoqeH2Q9UFKWjgrj8AJQscDsMQ2oxPE3vXiOP-Ta0HJHCt87IHZi5RDuask-bDLRHrjoD_VzBCbJDPbrYng8FO6AAgOTqTAlB98a_4qDOblu3niuUWfP0H4GjSzX81DIuanfw2_DhH3tyoe0ApP5ar0uMlVzDQzFSRo4roSFD6pnXU-PeIlTut9p7Y0cqnuAVp2OYWE1C7w3nSlPIzbkSCgkSYLY-aWvZ6x5SPp_Zuo6q2tA-WEJ7Ec9whhPqZzyWSUVeBg/p.png",
+      "image": "https://i.imgur.com/AT5W7NN.png",
       "moreInfo": "http://rfc.luenthai.com/",
       "contributions": [
         "Primary contributor responsible for the entire frontend development of the project.",
@@ -205,7 +205,7 @@
       "description": "Password strength meter and generator",
       "year": "2020",
       "moreInfo": "https://www.npmjs.com/package/ngx-pwd",
-      "image": "https://previews.dropbox.com/p/thumb/AClRKMN4rj2NUzEwZVRCYCwRd17BTHsNc69PbzSj_2IO4GF60YxStVsg5Cva7yIqSuRBClhADE3iuvsYPrxwyEUv3nEuo-wfe7mh-vR6AIGutY7UG_swH-J5dRgCgQX8MU81zCWt-8yIXftS_u1NFxjwT3f5WEycvJ5f-2cFPS4TZfEfXEYFjUSVKh_uEk_fid9cjHO_ZEAc8-4KlNP8hu_6OYnYb05Xf9KkX2prk6EuKIO_LdRFjVDNtT5My-OPM87cm2XtH5hXAwRpVjAwMJrdhZN4bGcFMpxv3CjN40zop21x4dsZlVZgEZ2q_3hvqfM/p.png",
+      "image": "https://i.imgur.com/o7M9cEN.png",
       "contributions": [
         "Primary contributor responsible for the entire frontend development of the module."
       ]
@@ -221,7 +221,7 @@
         "Tailwind CSS",
         "Ag-Grid"
       ],
-      "image": "https://previews.dropbox.com/p/thumb/ACnyl_K_HUrBRxpTF_UfRco3AOl37tzX4knu1XIjVpdOVAxH6u4o-Gpl1txeXVfN-leEbPkbvwITZYLF7Mu_w4mRK5SgWmAbxLIusKAOU23TrCktXEmeLL309s5fHnFOOxgRluWiINU0ZtBjCxKHE6K90dx3R8bw6qdV5AcD2FoSU7aBCReInRhkYGiAlOsLlvZ-oC2TRT6dJA6NlCbtj3BgywXGb6nJ1AusXKCQCC_jX0sFjIzpl0lhRSrTCn9QW6-nMVcvDtFC16dI2wq5SRgy2zxdutGuzB5rKtWGW59D-LVGdJGVd77BEXQ-958ITNo/p.png",
+      "image": "https://i.imgur.com/6gxAil3.png",
       "description": "FG Warehouse tracks all the finished goods from Order Uploading to Shipment",
       "year": "2022",
       "contributions": [
@@ -260,7 +260,7 @@
         "Tailwind CSS",
         "Ag-Grid"
       ],
-      "image": "https://previews.dropbox.com/p/thumb/ACmW0YF229l7hb34kzWAB9ygvxM0voKRmayCnPLdNBi0-NvvNIjabxkGzf6Ml5Eg4iLCFU5MSnbQeUc1zaXZh98mPEMFM9g7d8SmwOhsZSEyk1sKWsqbdjW7gO58bXkicxKcEaiON_dcdUnEde8-UAqDilSI960MaTUIBeivEMt2Q8jSiiuuRK54tzDhFTD7NKg2Er2hLpKzOeINV0rfQDxWq6NuV6PvQQtOW4Xp--l-45_uJ2VvPnWtfwh1G5QXdxT3SJMcWwQy1WayGS6OCQ3swBL46j7PhGEZbhAELMq4TxF-B3HLDZrQRQN-p8zJtu4/p.png",
+      "image": "https://i.imgur.com/VtVXTIB.png",
       "description": "Material Management (MM) tracks all incoming, outgoing, inventory of the materials in the warehouse",
       "year": "2023",
       "contributions": [
@@ -280,7 +280,7 @@
         "Auth0"
       ],
       "description": "Sell more with real shopper insights",
-      "year": "2023",
+      "year": "2023 to Present",
       "image": "https://i.ontraport.com/103013.8eccc91f2cfb162a390a3ef4484bc0cd.PNG",
       "moreInfo": "https://productpinion.com/",
       "contributions": [
@@ -301,7 +301,7 @@
         "Konva"
       ],
       "description": "Amazon Main Images Made Easy. Create stunning, high-converting images that drive clicks and dominate your category",
-      "year": "2024",
+      "year": "2024 to Present",
       "moreInfo": "https://variationizer.com/",
       "image": "https://i.ontraport.com/103013.a1baa7d1363b17e3439863c777aef192.PNG",
       "contributions": [
@@ -321,7 +321,7 @@
         "Rekognition"
       ],
       "description": "AI Image Analysis using the Amazon Rekognition API",
-      "year": "2024",
+      "year": "2024 to Present",
       "image": "https://imagechek.com/_next/static/media/imagechek-logo.7c6c5dfd.png",
       "moreInfo": "https://imagechek.com/",
       "contributions": [
@@ -338,7 +338,7 @@
         "Zustand",
         "Tailwind CSS"
       ],
-      "image": "https://uc4a15670676ae64810fefb098d7.previews.dropboxusercontent.com/p/thumb/ACl8W0Dxud24HL4AZR4aV1w-VkDjNDlZFfKSbYkCcCRRezblEOmkx8i5uKomVflY27wcv16rDSextmAc-w9wwK13Y32VQnbgeG_IbRa5T8WY-wR2oNLqJ2BG8Z7rQOw8NSIIIlsebQeGEnG26e-syor632zreeYy0b4njvaXr3n8YK_FB8nUlmxgqn59OUm8Zb9EB91SfWAylQYyIVYO0sEVeLZk2AzNzvhdtMvfwZrDHorxjnpIXXqHRtDMxh1dInMd_Dc1A_8Y2-kZYjBMDVQeQOBltoKqYgHrdtszBym7xSlufpsF0-9xkh3uYivYenv4QbNJVeGOFiDjmTyZKyK1ZFf0Yj7uuRazlXnMC0jMCYC_C7NfGngFE7afcjE-n8yf8d65_dPOSpehGhl1arF3/p.png?is_prewarmed=true",
+      "image": "https://i.imgur.com/HlguT9k.png",
       "description": "Worker Skill Assessment and Incentive made easy",
       "year": "2024",
       "moreInfo": "",
@@ -346,6 +346,25 @@
         "Core contributor responsible for the entire frontend development of the project.",
         "Provides daily support and assistance to users.",
         "Takes charge in discussions regarding features with Product Owners."
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "company": "@NoelitoCalma",
+      "techStack": [
+        "NextJS",
+        "React",
+        "Motion (Framer)",
+        "HeroUI",
+        "Jotai",
+        "Tailwind CSS"
+      ],
+      "image": "https://i.imgur.com/tpuSgpj.png",
+      "description": "Personal Portfolio",
+      "year": "2025",
+      "moreInfo": "",
+      "contributions": [
+        "Core contributor for this project"
       ]
     }
   ]

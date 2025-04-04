@@ -49,7 +49,7 @@ const SidebarWrapper = styled.div`
   &.sidebar__mobile {
     top: 0;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     background-color: var(--background);
     transition: margin-left ease 0.1s;
     margin-left: -100%;
