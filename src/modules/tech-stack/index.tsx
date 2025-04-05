@@ -10,7 +10,7 @@ import styled from "styled-components";
 
 const SVGWrapper = styled.span`
   svg {
-    width: 100px;
+    width: 80px;
   }
 `
 
@@ -48,19 +48,19 @@ export default function TechStack() {
             exit={{ opacity: 0 }}
           >
             <div className="text-xl uppercase font-bold mb-4">{detail.category}</div>
-            <div className="flex flex-wrap gap-8">
+            <div className="grid grid-cols-2 sm:flex flex-wrap gap-2 sm:gap-4 lg:gap-8">
               {detail.items.map(item => (
-                <Card key={item.name} radius="sm" className="shadow dark:bg-slate-900">
+                <Card key={item.name} radius="sm" className="shadow dark:bg-slate-900 min-w-fit sm:min-w-32">
                   <CardBody>
-                    {!item.png && !item.svg && (<StackIcon name={item.icon} />)}
+                    {!item.png && !item.svg && (<StackIcon className="h-[80px]" name={item.icon} />)}
                     {item.png && (
-                      <div className="h-[100px] flex items-center">
-                        <Image alt={item.name} src={item.icon} height={100} width={100} />
+                      <div className="h-[80px] flex items-center">
+                        <Image alt={item.name} src={item.icon} height={80} width={80} />
                       </div>
                     )}
 
                     {item.svg && (
-                      <div className="h-[100px] flex items-center">
+                      <div className="h-[80px] w-[80px] flex items-center">
                         <SVGWrapper dangerouslySetInnerHTML={{ __html: item.icon }}></SVGWrapper>
                       </div>
                     )}

@@ -89,13 +89,9 @@ export default function Projects() {
 
                 <Divider className="my-2" />
 
-                <div className="flex flex-wrap gap-2">
-                  {detail.techStack.map(tech => (<Kbd
-                    key={`work.${index}.${tech}`}
-                    className="text-xs"
-                  >
-                    {tech}
-                  </Kbd>
+                <div className="flex flex-wrap gap-2 max-w-fit">
+                  {detail.techStack.map(tech => (
+                    <Kbd key={`work.${index}.${tech}`} className="text-xs" >{tech}</Kbd>
                   ))}
                 </div>
               </CardBody>

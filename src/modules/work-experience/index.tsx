@@ -69,13 +69,9 @@ export default function WorkExperiencePage() {
 
                 <Divider className="my-2" />
 
-                <div className="flex gap-2">
-                  {detail.techStack.map(tech => (<Kbd
-                    key={`work.${index}.${tech}`}
-                    className="text-xs"
-                  >
-                    {tech}
-                  </Kbd>
+                <div className="flex flex-wrap gap-2">
+                  {detail.techStack.map(tech => (
+                    <Kbd key={`work.${index}.${tech}`} className="text-xs">{tech}</Kbd>
                   ))}
                 </div>
               </CardBody>
